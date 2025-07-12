@@ -11,10 +11,10 @@ A Spring Boot-based REST API to manage a library’s book catalog. It allows add
 ### Steps to Run
 
 1. Clone the repository:
-   git clone https://github.com/yourusername/library-api.git
+   git clone https://github.com/darshanchaudharii/Library_Management_Books_Catelog_Backend_Server
 
 2. Navigate into the project folder:
-   cd library-api
+   cd Library_Management_Books_Catelog_Backend_Server
 
 3. Run the application:
    mvn spring-boot:run
@@ -56,16 +56,13 @@ Response:
 ### GET /books
 
 Response:
-[
-  {
+{
     "id": 1,
     "title": "The Alchemist",
     "author": "Paulo Coelho",
     "isbn": "9780062315007",
     "available": true
-  }
-]
-
+    }
 ### PATCH /books/1/availability
 
 Request Body:
