@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"com.books_catelog.main"},{"l":"com.books_catelog.main.controller"},{"l":"com.books_catelog.main.entity"},{"l":"com.books_catelog.main.repository"},{"l":"com.books_catelog.main.service"},{"l":"com.books_catelog.main.service.impl"}];updateSearchResults();

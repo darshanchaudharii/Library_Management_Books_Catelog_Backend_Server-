@@ -1,0 +1,6 @@
+com.books_catelog.main
+com.books_catelog.main.controller
+com.books_catelog.main.entity
+com.books_catelog.main.repository
+com.books_catelog.main.service
+com.books_catelog.main.service.impl
