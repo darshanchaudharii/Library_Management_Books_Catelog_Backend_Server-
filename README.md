@@ -11,13 +11,19 @@ A Spring Boot-based REST API to manage a library’s book catalog. It allows add
 ### Steps to Run
 
 1. Clone the repository:
-   git clone https://github.com/darshanchaudharii/Library_Management_Books_Catelog_Backend_Server
+   ```bash
+   git clone https://github.com/yourusername/library-api.git
+   ```
 
 2. Navigate into the project folder:
-   cd Library_Management_Books_Catelog_Backend_Server
+   ```bash
+   cd library-api
+   ```
 
 3. Run the application:
+   ```bash
    mvn spring-boot:run
+   ```
 
 The application will start on:
 http://localhost:8080
@@ -36,15 +42,18 @@ http://localhost:8080
 
 ### POST /books
 
-Request Body:
+**Request Body**
+```json
 {
   "title": "The Alchemist",
   "author": "Paulo Coelho",
   "isbn": "9780062315007",
   "available": true
 }
+```
 
-Response:
+**Response**
+```json
 {
   "id": 1,
   "title": "The Alchemist",
@@ -52,25 +61,41 @@ Response:
   "isbn": "9780062315007",
   "available": true
 }
+```
 
 ### GET /books
 
-Response:
-{
+**Response**
+```json
+[
+  {
     "id": 1,
     "title": "The Alchemist",
     "author": "Paulo Coelho",
     "isbn": "9780062315007",
     "available": true
-    }
+  },
+  {
+    "id": 2,
+    "title": "1984",
+    "author": "George Orwell",
+    "isbn": "9780451524935",
+    "available": false
+  }
+]
+```
+
 ### PATCH /books/1/availability
 
-Request Body:
+**Request Body**
+```json
 {
   "available": false
 }
+```
 
-Response:
+**Response**
+```json
 {
   "id": 1,
   "title": "The Alchemist",
@@ -78,20 +103,22 @@ Response:
   "isbn": "9780062315007",
   "available": false
 }
+```
 
 ### DELETE /books/1
 
-Response Status: 204 No Content
+**Response**
+- Status: 204 No Content
 
 ## Input Validation
 
-- Title must not be blank
-- Author must not be blank
+- `title` must not be blank
+- `author` must not be blank
 
 ## Postman Collection
 
 Test this API using the shared Postman collection:  
-https://www.postman.com/your-workspace/collections/your-collection-id
+[Open Collection](https://www.postman.com/your-workspace/collections/your-collection-id)
 
 ## Author
 
