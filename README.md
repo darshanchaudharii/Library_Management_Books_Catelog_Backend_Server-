@@ -118,7 +118,7 @@ http://localhost:8080
 ## Postman Collection
 
 Test this API using the shared Postman collection:  
-[Open Collection](https://restless-rocket-398046.postman.co/workspace/My-Workspace~d611aeb1-7e53-402e-8557-fca0c9eaf520/collection/45915590-141ca865-08a1-49b2-8588-ac7aeda002e4?action=share&creator=45915590)
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://restless-rocket-398046.postman.co/workspace/Team-Workspace~9e746b3b-a57d-49f2-8274-a344ea4edf58/collection/45915590-141ca865-08a1-49b2-8588-ac7aeda002e4?action=share&creator=45915590)
 
 ## Author
 
